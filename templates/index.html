@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Button Press Counter</title>
+    <title>Valley Public Tracker</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,6 +32,10 @@
         font-size: 14px;
         color: gray;
       }
+      .footer img {
+        display: block;
+        margin: 10px auto;
+      }
     </style>
     <script>
       function updateCount() {
@@ -47,13 +51,16 @@
   <body class="container">
     <img src="../static/vp-logo.svg" alt="Logo" class="logo" />
     <h1>Welcome to Parent's Day</h1>
-    <h2>Visitors Count</h2>
+    <h5>Visitors Count</h2>
     <p class="counter" id="count">0</p>
     <div class="footer">
-      <p>
-        Powered by
-        <img src="../static/dg-logo.png" alt="Powered By" width="200" />
-      </p>
+      <p style="margin-bottom: 0px">Powered by</p>
+      <img
+        style="margin-top: 0px"
+        src="../static/dg-logo.png"
+        alt="DG Logo"
+        width="200"
+      />
     </div>
   </body>
 </html>
