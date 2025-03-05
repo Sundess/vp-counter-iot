@@ -12,7 +12,11 @@
       body {
         font-family: Arial, sans-serif;
         text-align: center;
-        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
       }
       .counter {
         font-size: 80px;
@@ -43,7 +47,7 @@
   <body class="container">
     <img src="../static/vp-logo.svg" alt="Logo" class="logo" />
     <h1>Welcome to Parent's Day</h1>
-    <h2>Total Parents Count</h2>
+    <h2>Visitors Count</h2>
     <p class="counter" id="count">0</p>
     <div class="footer">
       <p>
